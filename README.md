@@ -1,4 +1,4 @@
-# Flutter Project
+# KnowQuest Project
 
 This is a Flutter project with Firebase integration. Follow the steps below to set up and run the project locally.
 
