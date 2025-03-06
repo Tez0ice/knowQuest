@@ -1,14 +1,66 @@
+# Flutter & Dart related
+.dart_tool/
+.packages
+.pub/
+build/
+android/.gradle/
+ios/Pods/
+linux/build/
+macos/Flutter/ephemeral/
+windows/build/
+web/.dart_tool/
+web/build/
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.h
+**/GeneratedPluginRegistrant.m
+
+# Firebase related
+android/app/google-services.json
+ios/firebase_app_id_file.json
+ios/Runner/GoogleService-Info.plist
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Xcode related
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+
+# Miscellaneous
+*.iml
+*.log
+*.DS_Store
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Environment files
+.env
+.env.local
+
 # See https://www.dartlang.org/guides/libraries/private-files
 
 # Files and directories created by pub
 .dart_tool/
 .packages
 build/
-# If you're building an application, you may want to check-in your pubspec.lock
+# If you're building an application, you may want to check in your pubspec.lock
 pubspec.lock
 
 # Directory created by dartdoc
-# If you don't generate documentation locally you can remove this line.
+# If you don't generate documentation locally, you can remove this line.
 doc/api/
 
 # dotenv environment variables file
@@ -25,3 +77,6 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+firebase.json
+lib/firebase_options.dart
